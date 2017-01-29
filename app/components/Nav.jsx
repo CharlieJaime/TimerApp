@@ -3,8 +3,8 @@ var {Link, IndexLink} = require('react-router');
 
 var Nav = (props) => {
   return(
-    <div>
-      <ul>
+    <div className='navbar'>
+      <ul className='nav'>
         <li>TimingApp</li>
         <li><IndexLink to='/'>Timer</IndexLink></li>
         <li><Link to='/'>Countdown</Link></li>
