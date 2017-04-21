@@ -6,7 +6,7 @@ var Timer = require('Timer');
 var Countdown = require('Countdown');
 
 // CSS
-require('style!css!appStyles');
+require('style!css!sass!appStyles');
 
 /*********
 Dom Render

@@ -1,7 +1,7 @@
 {
-  "name": "weatherapp",
+  "name": "timerapp",
   "version": "1.0.0",
-  "description": "Gathers local weather with city search",
+  "description": "Manages time",
   "main": "index.js",
   "scripts": {
     "test": "karma start"
