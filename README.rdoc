@@ -1,2 +1,0 @@
-==README
-React App: It's a simple timer and countdown application
