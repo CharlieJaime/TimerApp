@@ -3,11 +3,10 @@ var webpack = require('webpack');
 module.exports = {
   entry: [
     'script!jquery/dist/jquery.min.js',
-    'script!foundation-sites/dist/foundation.min.js',
     './app/app.jsx'
   ],
   externals: {
-    jquery: 'jQuery'
+    jquery: "jQuery"
   },
   plugins: [
     new webpack.ProvidePlugin({
@@ -21,13 +20,13 @@ module.exports = {
   },
   resolve: {
     root: __dirname,
-    alias: {
+    alias:{
       Main: 'app/components/Main.jsx',
-      applicationStyles: 'app/styles/app.scss',
-      Navigation: 'app/components/Navigation.jsx',
+      Nav: 'app/components/Nav.jsx',
       Timer: 'app/components/Timer.jsx',
       Countdown: 'app/components/Countdown.jsx',
       Clock: 'app/components/Clock.jsx',
+      appStyles: 'app/styles/app.scss',
       CountdownForm: 'app/components/CountdownForm.jsx'
     },
     extensions: ['', '.js', '.jsx']
@@ -44,5 +43,5 @@ module.exports = {
       }
     ]
   },
-  devtool: 'cheap-module-eval-source-map'
+  devtool: "cheap-module-eval-source-map"
 };

@@ -1,12 +1,11 @@
 var React = require('react');
 var {Link, IndexLink} = require('react-router');
 
-var Navigation = () => {
+var Nav= () => {
   return (
-    <div className="top-bar">
-      <div className="top-bar-left">
-        <ul className="menu">
-          <li className="menu-text">
+      <div>
+        <ul>
+          <li>
             React Timer App
           </li>
           <li>
@@ -17,8 +16,7 @@ var Navigation = () => {
           </li>
         </ul>
       </div>
-    </div>
   );
 };
 
-module.exports = Navigation;
+module.exports = Nav;
